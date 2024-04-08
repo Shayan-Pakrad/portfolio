@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    background-color: rgb(8, 17, 36);
+    color: rgb(180, 189, 208);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+p{
+    line-height: 25px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+header{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 3% 7% 0 10%;
+    height: 100vh;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    color: white;
+}
+h2{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-family: cursive;
+}
+h3{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-family: cursive;
+}
+header>h2{
+    position: relative;
+    top: -17px;
+    margin-bottom: 25px;
+}
+header>nav{
+    margin-top: 35px;
+}
+header li{
+    line-height: 30px;
+    padding-left: 7px;
+    width: 0;
+}
+header li::marker{
+    content: attr(data-emoji);
+}
+header li:hover::marker {
+    content: "👉";
+}
+.social-media svg{
+    display: inline;
+    width: 25px;
+    padding: 10px
+}
+.social-media{
+    margin-top: 25px;
+    text-align: center;
+}
+.social-media a:hover{
+    color: white;
+    cursor: pointer;
+}
+aside{
+    float: left;
+    width: 50%;
+    max-height: 100vh;
+    overflow: auto;
+    box-sizing: border-box;
+    padding: 3% 7% 0 3%;
+}
+aside h2{
+    font-size: 25px;
+    text-align: center;
+    margin: 60px 0;
+}
+aside svg{
+    fill: yellow;
+}
+aside #projects p{
+    margin-left: 30px;
+}
+aside #skills>ul>li{
+    list-style-type: none;
+}
+aside #skills>ul>li>ul>li{
+    list-style-type: disc;
+    line-height: 25px;
+}
+aside #achievements li{
+    list-style-type: none;
+}
+aside #educations li{
+    list-style-type: none;
+}
